@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-    --primary-color: #047aed;
+    --primary-color: purple;
     --secondary-color: #1c3fa8;
     --dark-color: #002240;
     --light-color: #f4f4f4;
@@ -70,7 +70,8 @@ code, pre {
 }
 
 .navbar a:hover {
-    border-bottom: 2px #fff solid;
+    border-bottom: 3px blue solid;
+
 }
 
 .navbar .flex {
@@ -208,6 +209,7 @@ code, pre {
 
 .languages .card:hover {
     transform: translateY(-15px);
+    color: purple;
 }
 
 /* Features*/
@@ -266,6 +268,8 @@ code, pre {
 .footer .social a {
     margin: 0 10px;
 }
+
+
 
 
 /* Animations */
